@@ -8,14 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
-*.local
-
-echo "# Frontend-Marvel" >> README.md
+echo "# Portfolio" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/deschoux/Frontend-Marvel.git
+git remote add origin https://github.com/deschoux/Portfolio.git
 git push -u origin main
